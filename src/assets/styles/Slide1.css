@@ -1,0 +1,92 @@
+.slide1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.slide1_title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.5rem;
+  color: #ff8e00;
+  margin-left: 14rem;
+  margin-right: 10rem;
+  margin-top: 2rem;
+}
+.slide1_paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-left: 14rem;
+  margin-right: 10rem;
+  letter-spacing: 0.15rem;
+}
+.slide1_paragraph-span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #ff8e00;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  letter-spacing: 0.15rem;
+}
+.slide1_subtitle-Features {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: #a96108;
+  margin-left: 30rem;
+}
+
+.Features_container {
+  width: 85%;
+  margin-left: 14rem;
+  margin-right: 10rem;
+  background-color: #a96108;
+  opacity: 30%;
+  padding: 4rem;
+  border-radius: 1.2rem;
+  margin-bottom: 7rem;
+}
+.Features_container-paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #aaa3a3;
+  letter-spacing: 0.15rem;
+}
+.swiper-scrollbar {
+  background: var(--swiper-scrollbar-bg-color, #a96108);
+  opacity: 30%;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #ff8e00 !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: var(--swiper-scrollbar-bottom, 1.7rem);
+  z-index: 1;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 15rem);
+}
+.swiper-pagination-bullet {
+  background: var(--swiper-pagination-bullet-inactive-color, #a96108);
+  width: 1.2rem;
+  height: 1.2rem;
+  opacity: unset;
+}
+.swiper-scrollbar-drag {
+  background: unset;
+}

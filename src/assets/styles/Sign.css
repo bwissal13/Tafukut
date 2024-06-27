@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+body {
+  background-repeat: no-repeat;
+  background: #5a3f37 !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2c7744,
+    #5a3f37
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2c7744,
+    #5a3f37
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+.sign__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: #6bcc60;
+  margin-top: 4rem;
+}
+.sign__title-span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: #ff8e00;
+}
+.sign__form-group {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-style: normal;
+  margin-bottom: 1rem;
+}
+
+.sign__form-group > label {
+  padding-left: 0.9rem;
+  font-size: 1.4rem;
+}
+.sign__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #ffffff;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  width: 50rem;
+}
+.sign__form-group > input {
+  padding: 1rem;
+  width: 38.2rem;
+  height: 4rem;
+  border-radius: 1.2rem;
+  border: 0.1rem solid #ced4da;
+  margin: 1rem 0;
+  color: #ffffff;
+  background-color: transparent;
+}
+.sign__form-group > select {
+  color: #ffffff;
+  padding: 1rem;
+  width: 38.2rem;
+  height: 4rem;
+  border-radius: 1.2rem;
+  border: 0.1rem solid #ced4da;
+  margin: 1rem 0;
+  background-color: transparent;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../images/selectIconFilter.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.8rem top 50%;
+  padding-right: 2.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+option{
+  color: #000000;
+}
+
+
+.Sign-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.Sign__image {
+  height: 100vh;
+  padding-right: 10rem;
+}
+.Sign-flex--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  width: 60vw;
+}
+.logo {
+  margin: 4rem;
+}
+.sign__button {
+  width: 38.2rem;
+  height: 4rem;
+  border-radius: 1.2rem;
+  background-color: #6bcc60;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: white;
+  border: none;
+  margin-top: 2.5rem;
+  cursor: pointer;
+}
+::placeholder {
+  color: #adb5bd;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.sign-forgotContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.sign-remember {
+  accent-color: #6bcc60;
+  background: transparent;
+}
+
+.sign-forgot {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-left: 0.5rem;
+}
+.sign-signUp {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.signUp {
+  width: 100vw;
+}
+.signup_form {
+  display: flex;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.link {
+  text-decoration: none; 
+  color: #ff8e00; 
+}
