@@ -258,24 +258,24 @@ const Tuto = () => {
 
         <div className="controls" >
           {activeElement === 'video' ? (
-            <IconButton onClick={handlePlayerPlayPause} color="primary">
+            <IconButton onClick={handlePlayerPlayPause} style={{ color: '#6BCC60' }}>
               {playing ? <PauseIcon /> : <PlayArrowIcon />}
             </IconButton>
           ) : (
             <IconButton
               onClick={handlePlayFromEditor}
-              color="primary"
+              style={{ color: '#6BCC60' }}
             >
-              <PlayArrowIcon  />
+              <PlayArrowIcon />
             </IconButton>
           )}
-          <div className={` ${activeElement === 'editor' ? 'active_controls' : ''}`}> <IconButton onClick={increaseVolume} color="primary">
+          <div className={` ${activeElement === 'editor' ? 'active_controls' : ''}`}> <IconButton onClick={increaseVolume} style={{ color: '#6BCC60' }}>
             <VolumeUpIcon />
           </IconButton>
-            <IconButton onClick={decreaseVolume} color="primary">
+            <IconButton onClick={decreaseVolume} style={{ color: '#6BCC60' }}>
               <VolumeDownIcon />
             </IconButton>
-            <IconButton onClick={toggleMute} color="primary">
+            <IconButton onClick={toggleMute} style={{ color: '#6BCC60' }}>
               {muted ? <VolumeOffIcon /> : <VolumeMuteIcon />}
             </IconButton>
           </div>
