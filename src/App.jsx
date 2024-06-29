@@ -6,6 +6,7 @@ import Home from './components/Home';
 import SignUp from './components/SignUp/SignUp';
 import Tuto from './components/Tutorial/Tuto';
 import { ChakraProvider, ColorModeProvider } from "@chakra-ui/react";
+import Tutorials from './components/Tutorial/Tutorials';
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
             <Route path="/Home" element={<Home />} />
             <Route path="/SignUp" element={<SignUp />} />
             <Route path="/Tuto" element={<Tuto />} />
-
+            < Route path="/Tutorials" element={<Tutorials/>}     />
           </Routes>
 
         </BrowserRouter>

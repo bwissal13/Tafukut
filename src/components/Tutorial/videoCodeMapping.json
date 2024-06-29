@@ -1,0 +1,15 @@
+{
+    "mappings": [
+      {
+        "time": 0,
+        "snippet": "\nfunction greet(name) {\n\tconsole.log(\"Hello, \" + name + \"!\");\n}\n\ngreet(\"Aymane\");\n",
+        "language": "javascript"
+      },
+      {
+        "time": 10,
+        "snippet": "\nfunction greet(name) {\n\tconsole.log(\"Hello, \" + name + \"!\");\n}\n\ngreet(\"Aymane\");\n// Additional JavaScript code here",
+        "language": "javascript"
+      }
+    ]
+  }
+  
